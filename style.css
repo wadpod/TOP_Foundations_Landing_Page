@@ -1,0 +1,239 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1f2937;
+    width: 100%;
+    margin: 0%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-color: #1f2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+li a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    width: 100%;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 450px;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.second-section-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 20px;
+}
+
+.second-section-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    width: 170px;
+    height: 150px;
+    background-color: #f9faf8;
+    border-radius: 10px;
+    border: 5px solid #3882f6;
+}
+
+.image-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: center;
+    width: 170px;
+    height: 150px;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    padding: 20px;
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    padding-right: 200px;
+    text-align: right;
+}
+
+.fourth-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f9faf8;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.blue-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    width: 75%;
+    padding: 100px 0;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid #3882f6;
+    height: 100px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 450px;
+    padding-left: 100px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    color: #f9faf8;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #f9faf8;
+    margin-right: 100px;
+    border-radius: 10px;
+    border: 2px solid #f9faf8;
+}
+
+.blue-container-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.blue-container-text {
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 20px;
+    width: 100%;
+    margin: 0%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-color: #1f2937;
+}
